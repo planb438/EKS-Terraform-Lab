@@ -1,4 +1,4 @@
-# Terraform Variables and Datasources
+# Terraform Variables and Datasources.
 
 ## Step-00: Pre-requisite Note
 - Create a `terraform-key` in AWS EC2 Key pairs which we will reference in our EC2 Instance

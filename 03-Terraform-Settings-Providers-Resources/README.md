@@ -1,4 +1,4 @@
-# Terraform Settings, Providers & Resource Blocks
+## Terraform Settings, Providers & Resource Blocks
 ## Step-01: Introduction
 - [Terraform Settings](https://www.terraform.io/docs/language/settings/index.html)
 - [Terraform Providers](https://www.terraform.io/docs/providers/index.html)

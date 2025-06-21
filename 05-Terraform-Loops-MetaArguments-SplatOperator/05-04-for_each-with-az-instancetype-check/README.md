@@ -1,4 +1,4 @@
-# Meta-Argument for_each with AZ Instance Type Check
+# Meta-Argument for_each with AZ Instance Type Check.
 
 ## Step-00: Pre-requisite Note
 - We are using the `default vpc` in `us-east-1` region

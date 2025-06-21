@@ -32,29 +32,29 @@
 - Click on **Create Internet Gateway**
 - Click on Actions -> Attach to VPC -> my-manual-vpc
 
-## Step-05: Create NAT Gateway
+## Step-05: Create NAT Gateway.
 - **Name:** my-nat-gateway
 - **Subnet:** my-public-subnet-1
 - **Allocate Elastic Ip:** click on that
 - Click on **Create NAT Gateway**
 
-## Step-06: Create Public Route Table and Create Routes and Associate Subnets
+## Step-06: Create Public Route Table and Create Routes and Associate Subnets.
 ### Step-06-01: Create Public Route Table
 - **Name tag:** my-public-route-table
 - **vpc:** my-manual-vpc
 - Click on **Create**
-### Step-06-02: Create Public Route in newly created Route Table
+### Step-06-02: Create Public Route in newly created Route Table.
 - Click on **Add Route**
 - **Destination:** 0.0.0.0/0
 - **Target:** my-igw
 - Click on **Save Route**
-### Step-06-03: Associate Public Subnet 1 in Route Table
+### Step-06-03: Associate Public Subnet 1 in Route Table.
 - Click on **Edit Subnet Associations**
 - Select **my-public-subnet-1**
 - Click on **Save**
 
 
-## Step-07: Create Private Route Table and Create Routes and Associate Subnets
+## Step-07: Create Private Route Table and Create Routes and Associate Subnets.
 ### Step-07-01: Create Private Route Table
 - **Name tag:** my-private-route-table
 - **vpc:** my-manual-vpc
@@ -64,12 +64,12 @@
 - **Destination:** 0.0.0.0/0
 - **Target:** my-nat-gateway
 - Click on **Save Route**
-### Step-07-03: Associate Private Subnet 1 in Route Table
+### Step-07-03: Associate Private Subnet 1 in Route Table.
 - Click on **Edit Subnet Associations**
 - Select **my-private-subnet-1**
 - Click on **Save**
 
-## Step-08: Clean-Up
+## Step-08: Clean-Up.
 - Delete `my-nat-gateway`
 - Wait till NAT Gateway is deleted
 - Delete `my-manual-vpc`

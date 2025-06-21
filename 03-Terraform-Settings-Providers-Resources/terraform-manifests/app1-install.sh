@@ -1,7 +1,12 @@
 #! /bin/bash
 # Instance Identity Metadata Reference - https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-identity-documents.html
 sudo yum update -y
+# Install Apache Web Server
 sudo yum install -y httpd
+# Install PHP
+sudo yum install -y php
+# Install PHP Modules
+sudo yum install -y php-mbstring php-xml php-mysqlnd
 sudo systemctl enable httpd
 sudo service httpd start  
 sudo echo '<h1>Welcome to StackSimplify - APP-1</h1>' | sudo tee /var/www/html/index.html

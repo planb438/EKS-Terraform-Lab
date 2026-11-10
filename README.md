@@ -1,10 +1,11 @@
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-Ubuntu%2022.04%2B-lightgrey)](#)
 [![Kubernetes](https://img.shields.io/badge/Kubernetes-MicroK8s%20%7C%20kubeadm-blue)](#)
 [![YouTube](https://img.shields.io/badge/YouTube-TechShorts-red)](https://www.youtube.com/@adaribain)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Adari%20Bain-blue)](https://www.linkedin.com/in/adari-bain-298924152/)
 
 
+
+> **Course notes.** This repository is my hands-on work through the [Terraform on AWS EKS Kubernetes IaC SRE – 50 Real-World Demos](https://links.stacksimplify.com/terraform-on-aws-eks-kubernetes-iac-sre) course by StackSimplify. The course material and original code belong to StackSimplify ([upstream repo](https://github.com/stacksimplify/terraform-on-aws-eks)). My own Terraform + Kubernetes builds are in [aws-k8s-lab](https://github.com/planb438/aws-k8s-lab) and [Kubernetes-CKS-Security-Labs](https://github.com/planb438/Kubernetes-CKS-Security-Labs).
 
 # [Terraform on AWS EKS Kubernetes IaC SRE- 50 Real-World Demos](https://links.stacksimplify.com/terraform-on-aws-eks-kubernetes-iac-sre)
 
@@ -216,10 +217,3 @@
 - [Study Guide](https://learn.hashicorp.com/tutorials/terraform/associate-study?in=terraform/certification)
 - [Exam Review Guide](https://learn.hashicorp.com/tutorials/terraform/associate-review?in=terraform/certification)
 - [Sample Questions](https://learn.hashicorp.com/tutorials/terraform/associate-questions?in=terraform/certification)
-
-
-
-
-
-
-
